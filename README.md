@@ -1,4 +1,4 @@
-![read-me.jpg!](/assets/images/read-me.jpg)
+![read-me.jpg!](/banner/read-me-photo.jpg)
 # Andre's Personal Space (https://andrehere.vercel.app/)
 Welcome to my personal space where I showcase my experiments with projects and things 🛸
 
