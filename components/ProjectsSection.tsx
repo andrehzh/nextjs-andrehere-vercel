@@ -7,27 +7,27 @@ import { HiArrowDown } from "react-icons/hi"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "De-Twitter",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "Decentralised Twitter Clone, built in 24 hours for a Web3 Sprint. Technologies used: Next.JS, Tailwind.CSS, MetaMask, HardHat.",
     image: "/de-twitter.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/andrehzh/crypto-friends-blockchain",
+    link: "https://drive.google.com/file/d/1nlaUiGMUpjHaPVdVXrdGa8uj7C8KDJ0n/view?usp=share_link",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
+    name: "Scoops",
+    description: "Mobile Application for a Small Business Marketplace. Technologies used: React Native, Firebase, Node.JS.",
     image: "/scoops.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    github: "https://github.com/andrehzh/Scoops",
+    link: "https://drive.google.com/file/d/1CvVacMl00IdP-TC5A9bab8nfJHhzQkDh/view?usp=share_link",
   },
   {
-    name: "Kator Family Photos",
+    name: "DBLP ETL Pipeline",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
+      "An ETL Pipeline, which extracted data from DBLP Automatically. Technologies used: Apache Airflow, CassandraDB, Python.",
     image: "/etl-pipeline.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    github: "https://github.com/andrehzh/DBLP-ETL-Pipeline",
+    link: "https://drive.google.com/file/d/1LbaKpEyLF8g49Eus9VKK_rSz_egGrxqI/view?usp=share_link",
   },
 ]
 
