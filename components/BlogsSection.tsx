@@ -3,39 +3,28 @@ import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
-import { HiArrowDown } from "react-icons/hi"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Design Prodigy Challenge 2023",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/de-twitter.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Came in first for a B2B Marketing Competition, really thankful for my teammates. Great Experience.",
+    image: "/dpuc.png",
+    link: "https://drive.google.com/file/d/1OWdeLOVXUv8sKa_py7YpqLTOfntxg-hN/view?usp=share_link",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/scoops.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
-  },
-  {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/etl-pipeline.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "Hachi By Tokyo",
+    description: "A Day In The Life of one of Hachi By Tokyo's Groomer, a pet grooming shop I run!",
+    image: "/hbt.png",
+    link: "https://www.youtube.com/watch?v=Q6rggPrOLUY",
   },
 ]
 
-const ProjectsSection = () => {
+const BlogsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+        Blog
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
       </h1>
 
@@ -62,12 +51,6 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
@@ -81,15 +64,10 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        <div>
-
-        </div>
-        <div className="flex flex-row items-center text-center justify-center ">
-          <HiArrowDown size={35} className="animate-bounce" />
-        </div>
+        
       </div>
     </section>
   )
 }
 
-export default ProjectsSection
+export default BlogsSection

@@ -14,16 +14,16 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Home",
+    label: "home",
     page: "home",
   },
   {
-    label: "About",
-    page: "about",
+    label: "project",
+    page: "projects",
   },
   {
-    label: "Projects",
-    page: "projects",
+    label: "blog",
+    page: "blog",
   },
 ]
 
@@ -39,7 +39,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Hosna Qasmei</h2>
+                <h2 className="text-2xl font-bold">andre here 🛸</h2>
               </div>
             </Link>
             <div className="md:hidden">
