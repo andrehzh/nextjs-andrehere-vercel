@@ -9,7 +9,7 @@ Welcome to my personal space where I showcase my experiments with projects and t
 ```
 This is a space where I just play around with everything...
 ```
-## Things to look out for:
+## Things on the way:
 
 - Featured Projects
 - Experiments
