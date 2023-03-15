@@ -1,23 +1,22 @@
-# Andre's Personal Space
-
+![read-me.jpg!](/assets/images/read-me.jpg)
+# Andre's Personal Space (https://andrehere.vercel.app/)
 Welcome to my personal space where I showcase my experiments with projects and things 🛸
 
-- 💻 **Made** with [Next.JS]()
-- 🎨 **Styling** with [Tailwind.CSS]()
-- 👽 **Hosted** with [Vercel]()
+- 💻 **Made** with [Next.JS](https://nextjs.org/docs/getting-started)
+- 🎨 **Styling** with [Tailwind.CSS](https://v2.tailwindcss.com/docs)
+- 👽 **Hosted** with [Vercel](https://vercel.com/)
 
 ```
 This is a space where I just play around with everything...
 ```
-
 ## Things to look out for:
 
-1. Featured Projects
-2. Experiments
-3. Blogs
-4. Upcoming Projects
-5. **& More**
+- Featured Projects
+- Experiments
+- Blog Posts
+- Upcoming Projects
+- **More**
 
-## Things I want to focus on:
+## I want to focus on:
 
 Becoming a better person 🧍🏻‍♂️
