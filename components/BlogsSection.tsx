@@ -5,12 +5,12 @@ import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
-  {
-    name: "NUS IT x Starhub Outdoor Wifi Competition",
-    description: "Clinched 1st Runner-Up for a Schoolwide Design Competition with no design experience.",
-    image: "/outdoorwifi.png",
-    link: "https://www.linkedin.com/posts/andre-heng_how-i-leveraged-chatgpt-midjourney-activity-7087409603436560384-nmYC?utm_source=share&utm_medium=member_desktop",
-  },
+  // {
+  //   name: "NUS IT x Starhub Outdoor Wifi Competition",
+  //   description: "Clinched 1st Runner-Up for a Schoolwide Design Competition with no design experience.",
+  //   image: "/outdoorwifi.png",
+  //   link: "https://www.linkedin.com/posts/andre-heng_how-i-leveraged-chatgpt-midjourney-activity-7087409603436560384-nmYC?utm_source=share&utm_medium=member_desktop",
+  // },
   {
     name: "Design Prodigy Challenge 2023",
     description:
